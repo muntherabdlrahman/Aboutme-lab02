@@ -1,0 +1,127 @@
+
+
+body{ background-color:rgb(231, 234, 241);
+}
+
+nav ul li a {
+    display: inline-block;
+    margin:40px ;
+    background-color:greenyellow;
+    background: rgb(200, 223, 158);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+ 
+nav ul li {
+    text-align: center;
+    display: inline-block;
+}
+
+
+#firs {
+background-color: forestgreen;
+background:slateblue;
+text-decoration: solid;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background:blue;
+    font-style: italic;
+
+}
+
+
+
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: dotted;
+    background-color: lightyellow;
+}
+
+
+#firsta{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: forestgreen;
+}
+#firstaa{
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: gold;
+    text-align: center;
+}
+ 
+.a1 {
+    font-family: cursive;
+    text-align: center;
+}
+
+.c{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: lightblue;
+
+}
+
+.cc{
+    font-family: cursive;
+    text-align: center;
+}
+
+.b{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: mediumblue;
+    text-align: center;
+}
+.bb{
+    font-family: cursive;
+    text-align: center;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(200, 223, 158);
+}
+
+.a1a{
+    background-color: forestgreen;
+    margin: 40px;
+
+}
+
+.b1b{
+    background-color:gold ;
+    margin: 40px;
+
+}
+
+.c1c{
+    background-color:mediumblue ;
+    margin: 40px;
+
+}
+
+.d1d{
+    background-color: lightblue;
+    margin: 40px;
+}
+.j{
+    text-align: center;
+    background-color:wheat;
+}
+
+
+main ol a{
+    text-align: center;
+}

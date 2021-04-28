@@ -2,29 +2,24 @@
 
 let score = 0
 alert('You are on Munther Abdlrahman  personal page, Welcome! ')
-let firstAns = prompt('Do you know me?')
+let firstAns = prompt('Guess what, am I like web design?')
 
 function answer1(aa) {
     switch (aa.toLowerCase()) {
         case 'yes':
         case 'y':
-            console.log('Welcome to  my page, my friend..!')
-            document.write('Welcome to  my page, my friend..!')
-            document.write('You are Welcome')
-            alert('alright, Hi')
+            alert('Right, welcome to  my  website, my friend..!')
             score++;
             break;
 
         case 'no':
         case 'n':
-            console.log('Nice to see you , all honor to know you!')
-            document.write('Nice to see you , all honor to know you!')
-            document.write('Happy opportunity to get to know you!')
-            alert('I hope I can make friendship with you')
+            console.log('No, I really like it so much, it is so fun!')
+            alert('No, I really like it so much, it is so fun!')
             break;
         default:
-            console.log('welcome');
-            document.write('welcome :)')
+            alert('welcome');
+            
     }
 
 }
@@ -34,7 +29,7 @@ answer1(firstAns);
 
 
 
-let secAns = prompt('Do you want to know where I live?')
+let secAns = prompt('guess, am I like sports??')
 
 
 function answer2(bb) {
@@ -42,23 +37,19 @@ function answer2(bb) {
     switch (bb.toUpperCase()) {
         case 'YES':
         case 'Y':
-            console.log('I Hope that you can visit me soon *_* ')
-            document.write('I Hope that you can visit me soon *_*                                                                                                                                                                              ')
-            alert('i live in zarqa')
-            score++;
+            console.log(' Perfect, I love sports too but more than web design ')
+            alert('Perfect, I love sports too but more than web design')
             break;
-        case 'NO':
-        case 'N':
-            console.log('smoedays i will host you to my home with my pleasure :)')
-            document.write('Jordan-Zarqa; smoedays i will host you to my home with my pleasure :)                                                                                                                                                  ')
-            alert('Hmm, my bad I didnt tell you!')
-            alert('Jordan-Zarqa; smoedays i will host you to my home with my pleasure :)                                                                                                                                                  ')
-
+            case 'NO':
+                case 'N':
+                    console.log('No, not right, I love sports too but more than web design')
+                    alert('No, not right, I love sports too but more than web design')
+                    score++;
             break;
 
 
         default:
-            console.log('See you soon')
+            alert('The sport is the life to me!!')
     }
 
 }
@@ -66,24 +57,22 @@ answer2(secAns);
 
 
 
-let thirdANS = prompt('Do you know where Zarqa is ??')
+let thirdANS = prompt('Do you think that I am not like eating?')
 
 function answer3(cc) {
     switch (cc.toLowerCase()) {
         case 'yes':
         case 'y':
-            console.log('perfect')
-            document.write('Yup it is the same city that my uinversity is                                                                                                                                                                     ')
-            alert('perfect!')
+            console.log(' Really :(  , what you think, I like eating more than sports and design')
+            alert(' Really :(  , what you think, I like eating more than sports and design')
             score++;
             break;
         case 'no':
         case 'n':
-            console.log(' Really :(  you should know it!')
-            document.write('Zarqa (Arabic: الزرقاء‎) is the capital of Zarqa Governorate in Jordan. Its name means "the blue (city)". It had a population of 635,160 inhabitants in 2015, and is the most populous city in Jordan after Amman.')
-            alert('No, I will tell you! soon')
+            console.log('perfect!, it is more important than sport to me Hhhhhh!')
+            alert('Perfect!, it is more important than sport to me Hhhhhh!')
         default:
-            console.log('welcome :( ')
+            alert('welcome :( ')
 
     }
 }
@@ -100,20 +89,18 @@ function answer4(dd) {
         case 'yes':
         case 'y':
             console.log('dont be surprised ! ')
-            document.write('Graduated from Hashemite University in Aug,2018 and my major field is Power Electrical                                                                                                                                             ')
-            alert('Nice, that is right')
+            alert('Graduated from Hashemite University in Aug,2018 and my major field is Power Electrical')
             score++;
             break;
         case 'no':
         case 'n':
             console.log('OK, should I intreduce myself :)')
-            document.write('I am an electrical engineer graduated from Hashemite University in Aug,2018 and my major field is Power electrical, My studies was general electrical engineering so i studied power, electronics; and telecommunications. ')
             alert('no :( I will tell you')
-            alert('I am an electrical engineer graduated from Hashemite University in Aug,2018 and my major field is Power electrical, My studies was general electrical engineering so i studied power, electronics; and telecommunications. ')
+            alert('I am an electrical engineer graduated from Hashemite University in Aug,2018 and my major field is Power electrica.')
 
             break;
         default:
-            console.log('dont wanna knOW me?')
+            alert('dont wanna knOW me?!')
     }
 
 }
@@ -132,16 +119,16 @@ function answer5(ee) {
         case 'yes':
         case 'y':
             console.log('That is your chance to eat Shawerma from my hand hhhh :)')
-            alert('Cool! ,I worked as a Shawerma maker and i have a 2 years experiance with that work you should try my Shawerma ! so Delecious!')
+            alert('Cool! ,I worked as a Shawerma maker and I have a 2 years experiance with that work you should try my Shawerma ! so Delecious!')
             score++;
             break;
         case 'no':
         case 'n':
             console.log('Hmm; so weird  ')
-            alert('No!! ,You should try it from my hand!')
+            alert('No!! ,You should try it from my hand!, because I am Shawerma meker!')
             break;
         default:
-            console.log('Just try it')
+            alert('Just try it')
 
 
     }
@@ -151,7 +138,7 @@ answer5(fiveAns);
 
 
 
-let ansGuss = prompt('Guess that, How many time did I win Gold Medale in Boxing?');
+let ansGuss = prompt('Guess that, How many time did I win Gold Medale in Boxing?,','From0-5');
 
 function answer6(ff) {
     if (ff == 5) {
@@ -187,33 +174,30 @@ answer6(ansGuss);
 
 
 
- //Question seven 7
+//Question seven 7
 
-let plaYer= ['missi' , 'beckham' , 'm' , 'b'];
-let question = prompt('Guess, who is my favorite football player?', 'missi , ronaldo, vice , beckham or ronaldino', 'neither imbabe');
-plaYer = plaYer.toLocaleLowerCase();
 
+let plaYer = ['missi', 'm', 'ibrahemovice', 'i'];
 function answer7(gg){
-
     for (let j = 0; j < 6; j++) {
 
-        for (let i = 0; i < gg.length; i++) {
-            if (question == gg[i]) {
-                alert('Awesome!! you have the same opinion');
-                score++;
-                correct = true;
-                j = 7;
-                break;
+    let question = prompt('whats my fav football player', 'ex: ronaldo, ibrahemovice, missi, marsillo, piqe,swariz');
 
-            }
-            else {
-                alert('guess again');
-                gg = prompt('try again choose one of these missi , ronaldo, vice , beckham or ronaldino');
-            }
-
+    for (let i = 0; i < gg.length; i++) {
+        if (question == gg[i]) {
+            alert('Awesome, we are agree with this point he is legend');
+            score++;
+            correct = true;
+             j = 7;
+            break;
         }
+
+    }
+   
     }
 
-answer7(plaYer);
+
 
 }
+
+answer7(plaYer);

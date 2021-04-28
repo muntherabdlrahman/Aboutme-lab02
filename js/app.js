@@ -18,7 +18,7 @@ function answer1(aa) {
             alert('No, I really like it so much, it is so fun!')
             break;
         default:
-            alert('welcome');
+            alert('Hello');
             
     }
 

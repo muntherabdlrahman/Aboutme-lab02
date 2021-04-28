@@ -3,7 +3,7 @@
 body{ background-color:rgb(231, 234, 241);
 }
 
-nav ul li a {
+nav ol li a {
     display: inline-block;
     margin:40px ;
     background-color:greenyellow;
@@ -14,7 +14,7 @@ nav ul li a {
 
 }
  
-nav ul li {
+nav ol li {
     text-align: center;
     display: inline-block;
 }
@@ -96,25 +96,25 @@ h2{
 
 .a1a{
     background-color: forestgreen;
-    margin: 40px;
+    margin: 15px;
 
 }
 
 .b1b{
     background-color:gold ;
-    margin: 40px;
+    margin: 15px;
 
 }
 
 .c1c{
     background-color:mediumblue ;
-    margin: 40px;
+    margin: 15px;
 
 }
 
 .d1d{
     background-color: lightblue;
-    margin: 40px;
+    margin: 15px;
 }
 .j{
     text-align: center;
@@ -124,4 +124,43 @@ h2{
 
 main ol a{
     text-align: center;
+}
+
+
+
+.t{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(72, 56, 99);
+}
+
+ul {
+    text-decoration: none;
+        margin: 40px;
+        ;
+    
+}
+
+ul a{
+    margin: 15px;
+    text-decoration: none;
+    background: darkkhaki;
+    background-color: khaki;
+    display: inline;
+    border: lightgrey;
+    text-align: center;
+}
+
+ol a {
+    text-decoration: none;
+    font-family: inherit;
+    background: green;
+    margin: 80px;
+    text-align: center;
+}
+.u{
+    background-color: rgb(72, 56, 99);
+
+    text-align: center;
+    margin: 40px;
 }

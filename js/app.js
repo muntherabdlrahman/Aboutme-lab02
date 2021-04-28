@@ -1,5 +1,5 @@
 'use strict'
-
+let score=0
 alert('You are on Munther Abdlrahman  personal page, Welcome! ')
 
 let firstAns=prompt('Do you know me?')
@@ -11,6 +11,7 @@ switch (firstAns.toLowerCase()) {
         document.write('Welcome to  my page, my friend..!')
         document.write('You are Welcome' )
         alert('alright, Hi')
+        score++;
         break;
       
       case 'no':
@@ -35,6 +36,7 @@ switch (secAns.toUpperCase()) {
         console.log('I Hope that you can visit me soon *_* ')
         document.write('I Hope that you can visit me soon *_*                                                                                                                                                                              ')
         alert('alright, you guessed that')
+        score++;
         break;
     case 'NO':
     case 'N':
@@ -61,6 +63,7 @@ switch(thirdANS.toLowerCase()){
         console.log('perfect')
         document.write('Yup it is the same city that my uinversity is                                                                                                                                                                     ')
         alert('perfect!')
+        score++;
         break;
     case 'no':
     case 'n':
@@ -80,6 +83,7 @@ switch(fourAns.toLowerCase()){
         console.log('dont be surprised ! ')
         document.write('Graduated from Hashemite University in Aug,2018 and my major field is Power Electrical                                                                                                                                             ')
         alert('Nice, that is right')
+        score++;
         break;
         case 'no':
         case 'n':
@@ -101,7 +105,7 @@ switch(fiveAns.toLowerCase()){
     case 'y':
         console.log('That is your chance to eat Shawerma from my hand hhhh :)')
         alert('Yup ,I worked as a Shawerma maker and i have a 2 years experiance with that work you should try my Shawerma ! so Delecious!                                                                                                               ')
-
+          score++;
         break;
         case 'no':
         case 'n':
@@ -125,3 +129,123 @@ console.log('Best friend!');
 alert('Best friend!');
 
 
+
+
+let ansGuss = prompt('Guess that, How many time did I win Gold Medale in Boxing?');
+if(ansGuss==5){
+  alert('Awesome , you got it from the first time, it was days I am proud of ! '); 
+  score++;
+ } else{
+         alert('NO ,guess one more time!');
+        for(let i=0;i<3;i++){
+            let ansGuss = prompt('Guess that, How many time did I win Gold Medale in Boxing?');
+                        
+            if (ansGuss==5){
+                alert('Right,correct answer, it was days I am proud of !');
+                score++;
+        break;
+            }else{
+                if (i<2){
+                alert('Not right!, guess one more time')
+                }else{
+                   alert('You lost the guesses the answer is 5 ')
+                       
+               }
+        
+      }
+
+ }
+    }
+
+   
+   
+   
+   
+alert('Guess, who is my favorite football plyer?', 'missi , ronaldo, vice , beckham or ronaldino niether nymar'  );
+let Player=prompt(['nymar','beckhame','ronaldo','vice','ronaldino','embaby','missi','kareem' ] );
+
+ switch(Player.toLocaleLowerCase()){
+    case 'missi':
+    case 'm':
+        alert('Sure, missi is legend , you seems like me on this point..');
+        score++;
+        break;
+    case'nymar':
+    case 'n':
+    case'ronaldo':
+    case 'r':
+    case 'beckhame':
+    case 'b':
+    case 'vice':
+    case 'v':
+    case 'ronaldino':
+    case 'r':
+    case 'embaby':
+    case 'e':
+    case'kareem':
+    case 'k':
+        alert('I do not think so, guess one more time!');
+
+        for(let i=0;i<5;){ 
+            //alert('Guess, who is my favorite football plyer?', 'missi , ronaldo, vice , beckham or ronaldino niether nymar'  );
+            let Player=prompt(['nymar','beckhame','ronaldo','vice','ronaldino','embaby','missi','kareem' ] );
+            
+            switch(Player.toLocaleLowerCase()){
+                
+                case'nymar':
+                case 'n':
+                    case'ronaldo':
+                    case 'r':
+                        case 'beckhame':
+                            case 'b':
+                                case 'vice':
+                                    case 'v':
+                                        case 'ronaldino':
+                                            case 'r':
+                                                case 'embaby':
+                                                    case 'e':
+                                                        case'kareem':
+                                                        case 'k':
+                                                            alert('I do not think so, guess one more time!');
+                                                            i++;
+                                                            break;
+                                                            
+                                                            
+                                                            
+                                                            case 'missi': 
+                                                            case 'm':
+                                                                alert('Sure, missi is legend, but you not guessed from the first time!!');
+                                                                i=7
+                                                                score++;
+                                                                break;
+                                                                
+                                                                
+                                                            }
+                                                            
+                                                            
+                                                        }
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        break;}
+    
+
+
+
+
+                                                        alert('your score is'+score)
+
+
+        
+        
+        
+         
+    
+            
+
+        
+    
+    
+
+ 

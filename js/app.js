@@ -1,6 +1,7 @@
 'use strict'
 
-let score = 0
+let score = 0;
+
 alert('You are on Munther Abdlrahman  personal page, Welcome! ')
 let firstAns = prompt('Guess what, am I like web design?')
 
@@ -39,12 +40,12 @@ function answer2(bb) {
         case 'Y':
             console.log(' Perfect, I love sports too but more than web design ')
             alert('Perfect, I love sports too but more than web design')
+            score++;
             break;
             case 'NO':
                 case 'N':
                     console.log('No, not right, I love sports too but more than web design')
                     alert('No, not right, I love sports too but more than web design')
-                    score++;
             break;
 
 
@@ -65,12 +66,12 @@ function answer3(cc) {
         case 'y':
             console.log(' Really :(  , what you think, I like eating more than sports and design')
             alert(' Really :(  , what you think, I like eating more than sports and design')
-            score++;
             break;
-        case 'no':
-        case 'n':
-            console.log('perfect!, it is more important than sport to me Hhhhhh!')
-            alert('Perfect!, it is more important than sport to me Hhhhhh!')
+            case 'no':
+                case 'n':
+                    console.log('perfect!, it is more important than sport to me Hhhhhh!')
+                    alert('Perfect!, it is more important than sport to me Hhhhhh!')
+                    score++;
         default:
             alert('welcome :( ')
 
@@ -187,8 +188,7 @@ function answer7(gg){
         if (question == gg[i]) {
             alert('Awesome, we are agree with this point he is legend');
             score++;
-            correct = true;
-             j = 7;
+            j = 7;
             break;
         }
 
@@ -201,3 +201,6 @@ function answer7(gg){
 }
 
 answer7(plaYer);
+
+
+alert ('your score is '+' '+score);

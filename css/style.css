@@ -1,22 +1,30 @@
+#parent{
+    position: relative;
+    
+}
+
 
 
 body{ background-color:rgb(231, 234, 241);
 }
 
 nav ol li a {
-    display: inline-block;
+    
     margin:40px ;
-    background-color:greenyellow;
-    background: rgb(200, 223, 158);
+    background: rgb(241, 233, 233);
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Indie Flower', cursive;
     font-style: italic;
 
 }
  
+nav {
+    position: 500vh;
+}
 nav ol li {
     text-align: center;
     display: inline-block;
+    
 }
 
 
@@ -31,7 +39,7 @@ h1{
     text-align: center;
     background:blue;
     font-style: italic;
-
+   
 }
 
 
@@ -92,6 +100,7 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     background-color: rgb(200, 223, 158);
+   
 }
 
 .a1a{
@@ -142,12 +151,11 @@ ul {
 }
 
 ul a{
-    margin: 15px;
+    margin: 13px;
     text-decoration: none;
-    background: darkkhaki;
-    background-color: khaki;
+    background-color: rgb(164, 169, 177);
     display: inline;
-    border: lightgrey;
+    border: rgb(243, 233, 233);
     text-align: center;
 }
 
@@ -164,3 +172,12 @@ ol a {
     text-align: center;
     margin: 40px;
 }
+
+
+#childone{
+    background-color: brown;
+    font-family: 'Zen Dots', cursive;
+    position: fixed;
+    top: 0;
+}
+
